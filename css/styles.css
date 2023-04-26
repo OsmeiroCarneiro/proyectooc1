@@ -21,15 +21,16 @@
     border-radius: 50%;
 }
   h1,h2{text-align: center;
+
 }
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
 }
-#sociales,footer{
+#sociales,footer,#piepag{
     display: flex;
     justify-content: center;
     /*espacio entre imagenes*/
