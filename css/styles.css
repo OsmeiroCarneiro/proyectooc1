@@ -31,6 +31,7 @@
 }
 #sociales{
     display: flex;
+    justify-content: center;
 }
 
 /* Para quitar los puntos a los items de listas */
