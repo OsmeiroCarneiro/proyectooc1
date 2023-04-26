@@ -20,7 +20,7 @@
     overflow: hidden;
     border-radius: 50%;
 }
-  h1{text-align: center;
+  h1,h2{text-align: center;
 }
 * {
     box-sizing: border-box;
@@ -29,9 +29,10 @@
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
 }
-#sociales{
+#sociales,footer{
     display: flex;
     justify-content: center;
+    /*espacio entre imagenes*/
 }
 
 /* Para quitar los puntos a los items de listas */
@@ -51,6 +52,9 @@ a {
 main {
     max-width: 1200px;
     margin: auto;
+}
+footer{
+    text-align: right;
 }
 
 /* Recomendaciones! 
