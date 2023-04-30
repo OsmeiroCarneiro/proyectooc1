@@ -25,7 +25,7 @@ button{
     
 }
   h1,h2,.circular--square {
-    text-aling:center;
+    text-align: center;
 }
 * {
     box-sizing: border-box;
@@ -40,7 +40,16 @@ button{
     /*espacio entre imagenes*/
 }
 .descarga{
-    border-bottom-style: dashed;
+    display: flex;
+    justify-content: center;
+    background-color: #2288a7; /* azul */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 /* Para quitar los puntos a los items de listas */
 ul {
@@ -59,7 +68,6 @@ a {
 main {
     max-width: 1200px;
     margin: auto;
-
 }
 #contact{
     color: black;
