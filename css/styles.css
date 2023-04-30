@@ -10,6 +10,9 @@
 */
 
 /* Reset */
+button{
+    padding-inline-start: initial;
+}
 .circular--square {
     /*border-radius: 50%;*/
 
@@ -19,9 +22,10 @@
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
+    
 }
-  h1,h2{text-align: center;
-
+  h1,h2,.circular--square {
+    text-aling:center;
 }
 * {
     box-sizing: border-box;
@@ -30,12 +34,14 @@
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
 }
-#sociales,footer,#piepag{
+#sociales,#piepag{
     display: flex;
     justify-content: center;
     /*espacio entre imagenes*/
 }
-
+.descarga{
+    border-bottom-style: dashed;
+}
 /* Para quitar los puntos a los items de listas */
 ul {
     list-style: none;
@@ -53,9 +59,16 @@ a {
 main {
     max-width: 1200px;
     margin: auto;
+
+}
+#contact{
+    color: black;
+    background-color: rgb(28, 124, 221);
 }
 footer{
-    text-align: right;
+    
+    color: black;
+    background-color: rgb(112, 137, 144);
 }
 
 /* Recomendaciones! 
